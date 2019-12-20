@@ -67,7 +67,8 @@ au BufNewFile,BufRead *.hpp
 			\set shiftwidth=4
 
 "Encoding utf-8
-set encoding=utf-8
+let &termencoding=&encoding
+set fileencodings=utf-8,gbk
 
 "Auto complete
 let g:ycm_autoclose_preview_window_after_completion = 1

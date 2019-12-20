@@ -1,0 +1,5 @@
+cp ../.vimrc ./vimrc
+git add --all
+DATE = `date`
+git commit -m backup $DATE
+git push
