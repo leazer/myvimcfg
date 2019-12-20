@@ -1,5 +1,5 @@
 cp ../.vimrc ./vimrc
 git add --all
-DATE=`date -d`
-git commit -m backup ${DATE}
+DATE="backup"`date +%Y/%m/%d%H:%M`
+git commit -m ${DATE}
 git push
